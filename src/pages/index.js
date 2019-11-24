@@ -1,5 +1,16 @@
 import Layout from '~/components/Layout';
-
+import React from 'react';
 import { Alert } from 'antd';
 
-export default () => <Layout>Welcome to next.js!! <Alert message="Success Text" type="success" /></Layout>
+class ShoppingList extends React.Component {
+    render() {
+      return (
+        <div>
+        <Layout /> 
+        </div>
+      );
+    }
+  }
+
+  export default ShoppingList;
+

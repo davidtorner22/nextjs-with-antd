@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/next": "^9.0.0",
     "antd": "^2.13.10",
     "babel-plugin-import": "^1.6.2",
     "babel-plugin-module-resolver": "^3.0.0",
